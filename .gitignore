@@ -1,0 +1,16 @@
+# build artifacts
+webserver
+*.o
+*.obj
+*.dSYM/
+*.exe
+*.out
+build/
+
+# docs
+docs/public/
+docs/internal/
+
+# OS/editor
+.DS_Store
+.vscode/

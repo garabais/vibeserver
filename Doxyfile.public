@@ -1,0 +1,17 @@
+# Doxygen configuration (public API)
+PROJECT_NAME           = "C Webserver - Public API"
+OUTPUT_DIRECTORY       = docs/public
+CREATE_SUBDIRS         = NO
+OPTIMIZE_OUTPUT_FOR_C  = YES
+INPUT                  = lib/webserver/include
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h
+EXCLUDE_PATTERNS       = *0.h
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+INTERNAL_DOCS          = NO
+WARN_IF_UNDOCUMENTED   = YES
+QUIET                  = YES

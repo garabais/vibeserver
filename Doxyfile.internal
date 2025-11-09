@@ -1,0 +1,16 @@
+# Doxygen configuration (internal, full sources)
+PROJECT_NAME           = "C Webserver - Internal Docs"
+OUTPUT_DIRECTORY       = docs/internal
+CREATE_SUBDIRS         = NO
+OPTIMIZE_OUTPUT_FOR_C  = YES
+INPUT                  = lib/webserver/include lib/webserver/src
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.c
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+INTERNAL_DOCS          = YES
+WARN_IF_UNDOCUMENTED   = YES
+QUIET                  = YES
