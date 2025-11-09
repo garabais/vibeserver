@@ -15,7 +15,7 @@ pub fn build(b: *std.Build) void {
     exe.addIncludePath(.{ .path = "../../lib/webserver/include" });
 
     // Link the prebuilt static library (ensure `make` ran at repo root)
-    exe.addObjectFile(.{ .path = "../../build/libwebserver.a" });
+    exe.addObjectFile(.{ .path = "../../build/lib/libwebserver.a" });
 
     // Link libc and pthread
     exe.linkLibC();
