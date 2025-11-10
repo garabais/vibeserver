@@ -14,3 +14,11 @@ docs/internal/
 # OS/editor
 .DS_Store
 .vscode/
+
+# Zig outputs (ignore everywhere)
+zig-out/
+.zig-cache/
+zig-cache/
+**/zig-out/
+**/.zig-cache/
+**/zig-cache/
